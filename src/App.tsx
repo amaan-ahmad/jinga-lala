@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useState } from "react";
 import { jsPDF } from "jspdf";
-import data from "../public/data.json";
+import data from "./data.json";
 
 export default function App() {
   const [name, setName] = useState("");
